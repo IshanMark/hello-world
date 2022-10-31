@@ -4,15 +4,20 @@ import './App.css';
 import Greet from './components/Greet'
 import Welcome from "./components/Welcome";
 //import Hello from "./components/Hello"
+import Message from "./components/Message";
 
 function App() {
   return (
     <div className="App">
-      {/*<Greet/>*/}
 
-      {/*<Welcome/>*/}
+      <Message/>
 
-      {/*<Hello/>*/}
+
+     {/* <Greet/>
+
+      <Welcome/>
+
+      <Hello/>
 
       <Greet name = "Imashi" heroname = "BatWomen">
         <p>This is children props</p>
@@ -25,7 +30,7 @@ function App() {
       <Welcome name = "Imashi" heroname = "BatWomen"></Welcome>
       <Welcome name = "Anjana" heroname = "SuperWomen"></Welcome>
       <Welcome name = "Gamage" heroname = "Wonder Women"></Welcome>
-
+      */}
     </div>
   );
 }
